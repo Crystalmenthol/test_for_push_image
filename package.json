@@ -1,0 +1,29 @@
+{
+  "name": "workingrecord",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "mon": "nodemon --exec  \"npm run test\"",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fahlalla/workingRecord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fahlalla/workingRecord/issues"
+  },
+  "homepage": "https://github.com/Fahlalla/workingRecord#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  }
+}
