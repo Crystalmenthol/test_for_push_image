@@ -25,3 +25,4 @@ jobs:
         registry: ${{ env.REGISTRY }}
         username: ${{ github.actor }}
         password: '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'
+    - run: 'echo $CR_PAT | docker login ghcr.io -u Crystalmenthol --password-stdin'
